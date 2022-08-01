@@ -13,7 +13,7 @@ function ContactList() {
   return (
     <div>
       <h1>Contacto:</h1>
-      <Contact contact={defaultContact} />
+      <Contact contacto={defaultContact} />
     </div>
   );
 }

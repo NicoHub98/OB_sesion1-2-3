@@ -17,10 +17,6 @@ function Contact({ contacto }) {
 
 Contact.propTypes = {
   contacto: PropTypes.instanceOf(ContactClass),
-  nombre: PropTypes.string,
-  apellido: PropTypes.string,
-  email: PropTypes.string,
-  conectado: PropTypes.bool,
 };
 
 export default Contact;
